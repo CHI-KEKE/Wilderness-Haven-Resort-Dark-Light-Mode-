@@ -1,0 +1,54 @@
+fox-light
+Ray Hennessy
+https://unsplash.com/photos/xUUZcpQlqpM
+
+fox-dark
+Dušan veverkolog
+https://unsplash.com/photos/nOsJYzXEG98
+
+bk_dark
+Avatar of user Joshua Earle
+Unsplash+ In collaboration with Joshua Earle
+https://unsplash.com/photos/q0KaAn858Ck
+
+bk_light
+Tim Trad
+https://unsplash.com/photos/BYPMtjYMEyk
+
+
+owl_light
+Mehmet Turgut Kirkgoz
+https://unsplash.com/photos/F2irgRj1Nnw
+
+
+
+owl_dark
+Agto Nugroho
+https://unsplash.com/photos/wuDvhtaAYYI
+
+
+bear_light
+mana5280
+https://unsplash.com/photos/sQcIc_FJQkQ
+
+bear_dark
+mana5280
+https://unsplash.com/photos/rGPDLlMNFF4
+
+
+food_light
+Vincent Keiman
+https://unsplash.com/photos/ul_m5dHThaM
+
+food_dark
+Manuel Meurisse
+https://unsplash.com/photos/EuCll-F5atI
+
+hike_light
+Gregory DALLEAU
+https://unsplash.com/photos/wAOKtzvZ350
+
+hike_dark
+Avatar of user Getty Images
+Unsplash+
+https://unsplash.com/photos/v91ZiSvoVic
