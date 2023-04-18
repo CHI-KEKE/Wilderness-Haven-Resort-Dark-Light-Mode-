@@ -359,17 +359,6 @@ p {
   color: var(--on-background);
 }
 
-.footer__copyright {
-  font-size: 1.4rem;
-  color: #aaa;
-  text-align: center;
-}
-
-.footer__copyright .footer__link {
-  font-size: 1.4rem;
-}
-
-
 
 
 
