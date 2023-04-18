@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpine Haven</title>
+    <link rel="icon" type="image/png" href="img/dog.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme-switch-wrapper">
+    <div class="gifconwrapper">
+        <iframe src="https://giphy.com/embed/cmwj6dSoFBlRvzyJU2" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p class ="giff"><a href="https://giphy.com/gifs/izasoleroficial-transparent-cachorro-beagle-cmwj6dSoFBlRvzyJU2">via GIPHY</a></p>
+    </div>
+      <span id="toggle-icon">
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <nav id="nav">
+      <a href="#Greeting">Home</a>
+      <a href="#friends">Members</a>
+      <a href="#event">Our Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- Greeting -->
+    <section id="Greeting">
+      <div class="Greeting-group">
+        <h1 class = "Greeting-title">Morning!</h1>
+      </div>
+      <a class="photo-author">Photo by</a>
+    </section>
+    <!-- Friends -->
+    <section id="friends">
+      <h1>Our members</h1>
+      <div class="friend-container">
+        <div class="image-container">
+          <h2>Lyraen</h2>
+          <a href ="https://unsplash.com/photos/xUUZcpQlqpM"><img src="img\image1_light.avif" alt="Fox" id="image1" /></a>
+        </div>
+        <div class="image-container">
+          <h2>Arcturus</h2>
+          <a href="https://unsplash.com/photos/F2irgRj1Nnw"><img src="img/image2_light.avif" alt="Owl" id="image2" /></a>
+        </div>
+        <div class="image-container">
+          <h2>Thorneon</h2>
+          <a href="https://unsplash.com/photos/sQcIc_FJQkQ"><img src="img/image3_light.avif" alt="Bear" id="image3" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="event">
+      <h1>Events at Alpine Haven</h1>
+      <div class="event-container">
+        <div class="event-img-wrapper">
+          <a class = "event-anchor" href="https://unsplash.com/photos/wAOKtzvZ350"><img src="img/event1_light.avif" alt="" class="event-img" /></a>
+        </div>
+        <div class="event-content">
+          <h2 class="event-title">Nature's Pathway.</h2>
+          <p class="event-descript">
+            a one-of-a-kind hiking event that takes you on an adventure through
+            some of the most breathtaking natural landscapes in the area. With
+            multiple trails to choose from, hikers of all levels can find a path
+            that suits them, from easy strolls through gentle hills to
+            challenging ascents up rugged mountain terrain. Along the way,
+            you'll experience the beauty of nature, breathe in fresh air, and
+            connect with other outdoor enthusiasts. Whether you're a seasoned
+            hiker or just starting out, the Trailblaze Trek is an event not to
+            be missed!
+          </p>
+          <div class="btn-group">
+            <button class="primary">book</button>
+            <button class="outline" disabled>full reserved</button>
+          </div>
+        </div>
+      </div>
+      <div class="event-container">
+        <div class="event-img-wrapper">
+          <a class = "event-anchor" href="https://unsplash.com/photos/ul_m5dHThaM"><img src="img/event2_light.avif" alt="" class="event-img" /></a>
+        </div>
+        <div class="event-content">
+          <h2 class="event-title">Flame & Flavor Festival.</h2>
+          <p class="event-descript">
+            Get ready for the ultimate backyard feast at the Smoke & Sizzle
+            Fest! This BBQ event is a food lover's dream, with mouth-watering
+            meat and veggies sizzling on the grill and filling the air with
+            their delicious aroma. From pulled pork and brisket to grilled corn
+            and baked beans, there's something for everyone to enjoy. Grab a
+            plate and fill up on all your favorites, then kick back and relax
+            with friends and family in a fun and festive atmosphere. Don't miss
+            out on this tasty event that's sure to satisfy your cravings for all
+            things BBQ!
+          </p>
+          <div class="btn-group">
+            <button class="primary">book</button>
+            <button class="outline" disabled>full reserved</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="contact-head">Embrace the tranquility of nature</h1>
+      <div class="contact-container">
+        <div class="social-icons">
+          <a href="https://github.com/CHI-KEKE"><i class="fa-brands fa-github"></i></a>
+          <i class="fa-brands fa-codepen"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-medium"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <img src="img/undraw_friends_light.svg" alt="" class = "contact-img"/>
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link twitter-link"
+            target="_blank"
+            href="https://twitter.com/jonasschmedtman"
+            >Allen Lin, </a
+          >Copyright © 2023 Alpine Haven. All rights reserved.
+        </p>
+      </div>
+    </section>
+    <script src ="themefile.js"></script>
+    <script src="script.js"></script>   
+  </body>
+</html>
