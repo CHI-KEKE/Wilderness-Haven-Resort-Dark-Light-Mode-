@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,7 +35,7 @@
     <!-- Greeting -->
     <section id="Greeting">
       <div class="Greeting-group">
-        <h1 class = "Greeting-title">Morning!</h1>
+        <h1 class = "Greeting-title" data-aos ="fade-up">Morning!</h1>
       </div>
       <a class="photo-author">Photo by</a>
     </section>
@@ -42,15 +43,15 @@
     <section id="friends">
       <h1>Our members</h1>
       <div class="friend-container">
-        <div class="image-container">
+        <div class="image-container" data-aos ="fade-right">
           <h2>Lyraen</h2>
           <a href ="https://unsplash.com/photos/xUUZcpQlqpM"><img src="img\image1_light.avif" alt="Fox" id="image1" /></a>
         </div>
-        <div class="image-container">
+        <div class="image-container" data-aos ="fade-up">
           <h2>Arcturus</h2>
           <a href="https://unsplash.com/photos/F2irgRj1Nnw"><img src="img/image2_light.avif" alt="Owl" id="image2" /></a>
         </div>
-        <div class="image-container">
+        <div class="image-container" data-aos ="fade-left">
           <h2>Thorneon</h2>
           <a href="https://unsplash.com/photos/sQcIc_FJQkQ"><img src="img/image3_light.avif" alt="Bear" id="image3" /></a>
         </div>
@@ -59,7 +60,7 @@
 
     <section id="event">
       <h1>Events at Alpine Haven</h1>
-      <div class="event-container">
+      <div class="event-container" data-aos="flip-up">
         <div class="event-img-wrapper">
           <a class = "event-anchor" href="https://unsplash.com/photos/wAOKtzvZ350"><img src="img/event1_light.avif" alt="" class="event-img" /></a>
         </div>
@@ -82,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="event-container">
+      <div class="event-container" data-aos="flip-up">
         <div class="event-img-wrapper">
           <a class = "event-anchor" href="https://unsplash.com/photos/ul_m5dHThaM"><img src="img/event2_light.avif" alt="" class="event-img" /></a>
         </div>
@@ -111,16 +112,25 @@
       <div class="contact-container">
         <div class="social-icons">
           <a href="https://github.com/CHI-KEKE"><i class="fa-brands fa-github"></i></a>
-          <i class="fa-brands fa-codepen"></i>
+          <a href="https://github.com/CHI-KEKE"><i class="fa-brands fa-codepen"></i></a>
           <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-medium"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <a href="https://lifeserenelab.com/"><i class="fa-brands fa-wordpress"></i>
+          <a href="https://www.instagram.com/chilly37647/"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <img src="img/undraw_friends_light.svg" alt="" class = "contact-img"/>
       </div>
     </section>
     <script src ="themefile.js"></script>
-    <script src="script.js"></script>   
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      delay: 200, // values from 0 to 3000, with step 50ms
+      duration: 1500, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+    });
+</script>
   </body>
+  
 </html>
