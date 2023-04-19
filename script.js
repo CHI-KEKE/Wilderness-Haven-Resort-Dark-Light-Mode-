@@ -39,18 +39,18 @@ const definetheme = () =>{
   //Greeting section
   author_part.textContent = `Photo by ${src.background.author}`;
   author_part.setAttribute("href", src.background.link);
-  Greetingsection.style.backgroundImage = `url('${src.background.link}')`;
+  Greetingsection.style.backgroundImage = `url('img/background_${theme}.avif')`;
   GreeetingTitle.textContent = theme === DARK_THEME? 'Night!':'Morning!';
 
   //friend section
   for (let i = 0; i < 3; i++) {
-    friends[i].setAttribute("src", src[i]);
+    friends[i].setAttribute("src", `img/image${i + 1}_${theme}.avif`);
     friendsauthors[i].setAttribute("href", src[i]);
   }
 
   //event section
   eventImgs.forEach((image, i) => {
-    image.setAttribute("src", src.event[i].link);
+    image.setAttribute("src", `img/event${i+1}_${theme}.avif`);
   });
   eventAnchors.forEach((anchor,i) =>{
     anchor.setAttribute("href",src.event[i].link)
