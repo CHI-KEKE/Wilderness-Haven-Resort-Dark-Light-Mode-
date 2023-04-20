@@ -7,7 +7,7 @@ This is a simple app based on HTML, CSS, Javascript and AOS Scroll effect.
 ![image](https://user-images.githubusercontent.com/113175990/232794884-cc761d99-916b-4b8c-98aa-1a243d22d9ad.png)
 
 ## Main Idea 
--Light and Dark Mode
+- Light and Dark Mode
 - AOS Scroll effect
 <br><br><br>
 
