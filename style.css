@@ -28,9 +28,8 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
-}
 
+}
 
 
 html {
@@ -120,6 +119,7 @@ nav a:focus {
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
+  width: 105%;
 }
 
 #Greeting-group{
@@ -370,6 +370,17 @@ p {
   color: var(--on-background);
 }
 
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1.4rem;
+}
+
+
 
 
 
@@ -453,4 +464,12 @@ input:checked + .slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+
+
+@media screen and (max-width:768px){
+  .theme-switch-wrapper{
+    display: none;
+  }
 }
